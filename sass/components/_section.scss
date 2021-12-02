@@ -1,0 +1,44 @@
+.section {
+  padding-top: 120px;
+  padding-bottom: 100px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 110px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 125px;
+    padding-bottom: 120px;
+  }
+}
+
+// .section--doing-padding {
+//   padding-top: 0px;
+// }
+
+// .section--doing-none {
+//   @media screen and (max-width: 1199px) {
+//     display: none;
+//   }
+// }
+
+// .section--team-background {
+//   background-color: #f5f4fa;
+// }
+
+// .section__title {
+//   margin-bottom: 30px;
+
+//   font-weight: 700;
+//   font-size: 28px;
+//   line-height: 1.17;
+//   letter-spacing: 0.03em;
+//   text-align: center;
+
+//   color: var(--title-text-color);
+
+//   @media screen and (min-width: 1200px) {
+//     margin-bottom: 50px;
+//     font-size: 36px;
+//   }
+// }
